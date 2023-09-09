@@ -14,4 +14,5 @@ menuIcon.onclick = () => {
 
 menuLink.forEach(link => link.onclick = () => {
   menuBox.classList.remove('menu-opened');
+  menuIcon.src = '../img/menu-svgrepo-com.svg';
 })
